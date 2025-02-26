@@ -41,10 +41,20 @@ class ImageDataLoader:
         # get a sorted list of all files in the directory
         # fill in with your own code below
 
-        self.file_list = sorted(
-                    [os.path.join(directory, f) for f in os.listdir(directory) if
-                    f.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.tiff'))]
-                )
+        self.file_list = sorted([os.path.join(self.directory, file)
+                         for file in os.listdir(self.directory)
+                         if file.endswith(('.png', '.jpg', '.jpeg'))])
+
+        #handling empty dictionaries
+        if not self.file_list:
+            raise ValueError("No image files found in the directory.")
+
+        # shuffle file list if required (the list will be randomized)
+        if self.shuffle:
+            random.shuffle(self.file_list)
+
+        # get the total number of batches (images)
+        self.num_batches = len(self.file_list)
 
         if not self.file_list:
             raise ValueError("No image files found in the directory.")
