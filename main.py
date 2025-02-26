@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from util.img_util import readImageFile, saveImageFile
 from util.inpaint_util import removeHair
 
-file_path = './data/example.jpg'
+file_path = 'C:\\Users\\UCL053791\\Documents\\ITU\\Year_2_Sem_2\\Projects_DS\\2025-FYP-Assignment-Group-I\\example.jpg'
 save_dir = './result'
 
 # read an image file
