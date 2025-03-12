@@ -64,7 +64,7 @@ Kernel size 20, the hair is fully removed but the melanoma surface is affected
 
 While a kernel size of 50, the hair is completely gone, but the melanoma as well
 
-![Picture 9 on the Images_example file](https://github.com/luca-itu/2025-FYP-Assignment-Group-I/blob/main/result/Images_Example/Picture.png?raw=true)
+![Picture 9 on the Images_example file](https://github.com/luca-itu/2025-FYP-Assignment-Group-I/blob/main/result/Images_Example/Picture9.png?raw=true)
 
 Bottom line: Increased kernel size performs better on removing the hair, however affects melanoma surface quality.
 
