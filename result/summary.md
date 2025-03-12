@@ -23,7 +23,7 @@ We performed 4 different tests on the example image
 
 The lowest threshold we tested was 0: the threshold mask changed a lot compared to the original one, however the hair seemed fully removed. 
 
-![Picture 1 on the Images_example file]('result\Images_example\Picture1.png')
+![Picture 1 on the Images_example file]('https://github.com/luca-itu/2025-FYP-Assignment-Group-I/blob/main/result/Images_Example/Picture2.png?raw=true')
 
 For threshold of 3, it did remove some quality out of the melanoma (more pixelated), but removed the hair out of the picture. 
 
